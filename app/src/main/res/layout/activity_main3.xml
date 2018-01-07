@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context="com.example.dell.scarnesdice.Main3Activity">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                 How To Play           \n\n->In this game there are two players one computer and another user,now user has to ROLL the dice and the number which comes up will be added   to the current score.  \n\n->If the number one comes up your current score will be set to 0, and the turn will pass on to the computer and again user can take the turn.  \n\n->If you press HOLD the current score will be added to the total score and then the turn will be passed on to the computer.  \n\n->User's and Computer's total score will be shown at the top   of the screen.  \n\n->One who scores 100 first will be the winner.  \n\n->Press RESET to set all the scores to 0 and play again."
+            android:textColor="@android:color/darker_gray"
+            android:textSize="22sp" />
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
